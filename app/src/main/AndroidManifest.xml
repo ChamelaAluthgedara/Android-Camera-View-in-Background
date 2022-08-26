@@ -38,7 +38,7 @@
 
         <service
             android:name="com.chamelalaboratory.assess_camera_view_background.BackgroundService"
-            android:label="My Service"></service>
+            android:label="Background Service" />
     </application>
 
 </manifest>

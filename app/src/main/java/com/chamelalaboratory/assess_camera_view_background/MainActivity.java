@@ -71,8 +71,12 @@ public class MainActivity extends AppCompatActivity {
         });
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             checkDrawOverlayPermission();
-            if (!hasCameraPermissionGranted())
+            if (!hasCameraPermissionGranted()) {
                 requestCameraPermission();
+
+            } else {
+                startBackgroundServices();
+            }
         } else {
             startBackgroundServices();
         }
