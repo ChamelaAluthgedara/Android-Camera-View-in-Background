@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Assess Camera View In Background</string>
+    <string name="background_camera_access_demo">Background Camera Access Demo</string>
+    <string name="ok">OK</string>
+    <string name="start">Start</string>
+</resources>
